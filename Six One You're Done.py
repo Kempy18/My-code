@@ -14,6 +14,7 @@ while Found == False:
             Found = False
         if Found == False:
             print("User not Valid. Re-enter Login for User 1")
+            
 print("Player 1 validated.")
 print("Player 2 login:")
 Found = False
@@ -29,6 +30,7 @@ while Found == False:
             Found=False
     if Found==False:
             print("User not Valid. Re-enter Login for User 2")
+        
 print("Player 2 validated.")
 #player1 roll
 player1point=0
@@ -56,6 +58,8 @@ else:
     player1point=player1point-5
 if player1point<0:
     player1point=0
+
+
 print("Player1 score is", player1point)
 #player2 roll
 player2point=0
@@ -83,6 +87,7 @@ else:
     player2point=player2point-5
 if player2point<0:
     player2point=0
+    
 print("Player2 score is", player2point)
 #winner statement
 if player1point==player2point:
